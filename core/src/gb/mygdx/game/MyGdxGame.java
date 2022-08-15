@@ -1,0 +1,49 @@
+package gb.mygdx.game;
+
+import com.badlogic.gdx.ApplicationAdapter;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.scenes.scene2d.ui.Button;
+import com.badlogic.gdx.utils.ScreenUtils;
+
+public class MyGdxGame extends ApplicationAdapter {
+	SpriteBatch batch;
+	Texture img;
+
+	int clk;
+	
+	@Override
+	public void create () {
+		batch = new SpriteBatch();
+		img = new Texture("badlogic.jpg");
+	}
+
+	@Override
+	public void render () {
+		ScreenUtils.clear(1, 0, 0, 1);
+
+		float mouseX = Gdx.input.getX() - img.getWidth()/2;
+		float mouseY = Gdx.graphics.getHeight() - Gdx.input.getY() - img.getHeight() / 2;
+
+		if (Gdx.input.isButtonJustPressed(Input.Buttons.LEFT)) {
+			clk++;
+		}
+
+		Gdx.graphics.setTitle("Clicked " + clk + " times!");
+
+		batch.begin();
+		batch.draw(img, 0, 0);
+
+		batch.draw(img, mouseX, mouseY);
+
+		batch.end();
+	}
+	
+	@Override
+	public void dispose () {
+		batch.dispose();
+		img.dispose();
+	}
+}
