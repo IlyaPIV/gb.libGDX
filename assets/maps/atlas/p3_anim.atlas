@@ -1,0 +1,111 @@
+
+p3_anim.png
+size: 1024, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+p3_duck
+  rotate: false
+  xy: 354, 23
+  size: 69, 71
+  orig: 69, 71
+  offset: 0, 0
+  index: -1
+p3_front
+  rotate: false
+  xy: 826, 2
+  size: 66, 92
+  orig: 66, 92
+  offset: 0, 0
+  index: -1
+p3_hurt
+  rotate: false
+  xy: 423, 2
+  size: 69, 92
+  orig: 69, 92
+  offset: 0, 0
+  index: -1
+p3_jump
+  rotate: false
+  xy: 559, 0
+  size: 67, 94
+  orig: 67, 94
+  offset: 0, 0
+  index: -1
+p3_walk
+  rotate: false
+  xy: 0, 2
+  size: 72, 92
+  orig: 72, 97
+  offset: 0, 5
+  index: 3
+p3_walk
+  rotate: false
+  xy: 72, 2
+  size: 71, 92
+  orig: 72, 97
+  offset: 0, 3
+  index: 5
+p3_walk
+  rotate: false
+  xy: 143, 2
+  size: 71, 92
+  orig: 72, 97
+  offset: 0, 5
+  index: 4
+p3_walk
+  rotate: false
+  xy: 214, 2
+  size: 70, 92
+  orig: 72, 97
+  offset: 0, 1
+  index: 7
+p3_walk
+  rotate: false
+  xy: 284, 2
+  size: 70, 92
+  orig: 72, 97
+  offset: 0, 2
+  index: 6
+p3_walk
+  rotate: false
+  xy: 492, 1
+  size: 67, 93
+  orig: 72, 97
+  offset: 4, 2
+  index: 11
+p3_walk
+  rotate: false
+  xy: 626, 1
+  size: 67, 93
+  orig: 72, 97
+  offset: 3, 0
+  index: 8
+p3_walk
+  rotate: false
+  xy: 693, 1
+  size: 67, 93
+  orig: 72, 97
+  offset: 3, 0
+  index: 9
+p3_walk
+  rotate: false
+  xy: 760, 2
+  size: 66, 92
+  orig: 72, 97
+  offset: 4, 1
+  index: 10
+p3_walk
+  rotate: false
+  xy: 892, 2
+  size: 66, 92
+  orig: 72, 97
+  offset: 6, 5
+  index: 2
+p3_walk
+  rotate: false
+  xy: 958, 2
+  size: 66, 92
+  orig: 72, 97
+  offset: 5, 4
+  index: 1

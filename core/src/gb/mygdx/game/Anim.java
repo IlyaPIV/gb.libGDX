@@ -27,7 +27,7 @@ public class Anim {
                 region1[cnt++] = region[j];
             }
         }
-        anm = new Animation<>(1/15f, region1);
+        anm = new Animation<TextureRegion>(1/15f, region1);
         anm.setPlayMode(playMode);
 
         deltaTime += Gdx.graphics.getDeltaTime();
