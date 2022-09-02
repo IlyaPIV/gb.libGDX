@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ScreenUtils;
+import gb.mygdx.game.character.CharAnimation;
 
 public class MyGdxGame extends ApplicationAdapter {
 	SpriteBatch batch;
@@ -21,7 +22,7 @@ public class MyGdxGame extends ApplicationAdapter {
 	public void create () {
 		batch = new SpriteBatch();
 
-		character = new CharAnimation("fighter.png", 9, 5, Animation.PlayMode.LOOP,
+		character = new CharAnimation(Animation.PlayMode.LOOP,
 							Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() / 2f + 40);
 
 	}
