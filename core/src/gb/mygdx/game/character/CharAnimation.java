@@ -151,6 +151,10 @@ public class CharAnimation {
         }
     }
 
+    public CharStatus getCurrentStatus() {
+        return currentStatus;
+    }
+
     public void dispose(){
         charTextures.dispose();
     }
